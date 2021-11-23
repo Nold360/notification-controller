@@ -124,6 +124,13 @@ require (
 	sigs.k8s.io/kustomize/kyaml v0.13.0 // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.2.0 // indirect
 	sigs.k8s.io/yaml v1.3.0 // indirect
+	github.com/xanzy/go-gitlab v0.50.4
+	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d
+	k8s.io/api v0.22.2
+	k8s.io/apimachinery v0.22.2
+	k8s.io/client-go v0.22.2
+	sigs.k8s.io/controller-runtime v0.10.2
+	sigs.k8s.io/yaml v1.2.0
 )
 
 // Fix for CVE-2020-29652: https://github.com/golang/crypto/commit/8b5274cf687fd9316b4108863654cc57385531e8
